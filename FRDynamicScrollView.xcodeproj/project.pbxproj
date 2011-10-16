@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55C1AE5D144AEEA000C86F6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1AE5C144AEEA000C86F6A /* UIKit.framework */; };
+		55C1AE5F144AEEA000C86F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1AE5E144AEEA000C86F6A /* Foundation.framework */; };
+		55C1AE61144AEEA000C86F6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C1AE60144AEEA000C86F6A /* CoreGraphics.framework */; };
+		55C1AE67144AEEA000C86F6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55C1AE65144AEEA000C86F6A /* InfoPlist.strings */; };
+		55C1AE69144AEEA000C86F6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C1AE68144AEEA000C86F6A /* main.m */; };
+		55C1AE6D144AEEA000C86F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C1AE6C144AEEA000C86F6A /* AppDelegate.m */; };
+		55C1AE70144AEEA000C86F6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C1AE6F144AEEA000C86F6A /* ViewController.m */; };
+		55C1AE73144AEEA000C86F6A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C1AE71144AEEA000C86F6A /* ViewController.xib */; };
+		55C1AE7B144AEEB800C86F6A /* FRDynamicScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C1AE7A144AEEB800C86F6A /* FRDynamicScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55C1AE58144AEEA000C86F6A /* FRDynamicScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRDynamicScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C1AE5C144AEEA000C86F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55C1AE5E144AEEA000C86F6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55C1AE60144AEEA000C86F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55C1AE64144AEEA000C86F6A /* FRDynamicScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FRDynamicScrollView-Info.plist"; sourceTree = "<group>"; };
+		55C1AE66144AEEA000C86F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55C1AE68144AEEA000C86F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55C1AE6A144AEEA000C86F6A /* FRDynamicScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FRDynamicScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		55C1AE6B144AEEA000C86F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55C1AE6C144AEEA000C86F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55C1AE6E144AEEA000C86F6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55C1AE6F144AEEA000C86F6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55C1AE72144AEEA000C86F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		55C1AE79144AEEB800C86F6A /* FRDynamicScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDynamicScrollView.h; sourceTree = "<group>"; };
+		55C1AE7A144AEEB800C86F6A /* FRDynamicScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDynamicScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C1AE55144AEEA000C86F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C1AE5D144AEEA000C86F6A /* UIKit.framework in Frameworks */,
+				55C1AE5F144AEEA000C86F6A /* Foundation.framework in Frameworks */,
+				55C1AE61144AEEA000C86F6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C1AE4D144AEEA000C86F6A = {
+			isa = PBXGroup;
+			children = (
+				55C1AE62144AEEA000C86F6A /* FRDynamicScrollView */,
+				55C1AE5B144AEEA000C86F6A /* Frameworks */,
+				55C1AE59144AEEA000C86F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55C1AE59144AEEA000C86F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C1AE58144AEEA000C86F6A /* FRDynamicScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C1AE5B144AEEA000C86F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C1AE5C144AEEA000C86F6A /* UIKit.framework */,
+				55C1AE5E144AEEA000C86F6A /* Foundation.framework */,
+				55C1AE60144AEEA000C86F6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55C1AE62144AEEA000C86F6A /* FRDynamicScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				55C1AE6B144AEEA000C86F6A /* AppDelegate.h */,
+				55C1AE6C144AEEA000C86F6A /* AppDelegate.m */,
+				55C1AE6E144AEEA000C86F6A /* ViewController.h */,
+				55C1AE6F144AEEA000C86F6A /* ViewController.m */,
+				55C1AE71144AEEA000C86F6A /* ViewController.xib */,
+				55C1AE63144AEEA000C86F6A /* Supporting Files */,
+				55C1AE79144AEEB800C86F6A /* FRDynamicScrollView.h */,
+				55C1AE7A144AEEB800C86F6A /* FRDynamicScrollView.m */,
+			);
+			path = FRDynamicScrollView;
+			sourceTree = "<group>";
+		};
+		55C1AE63144AEEA000C86F6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55C1AE64144AEEA000C86F6A /* FRDynamicScrollView-Info.plist */,
+				55C1AE65144AEEA000C86F6A /* InfoPlist.strings */,
+				55C1AE68144AEEA000C86F6A /* main.m */,
+				55C1AE6A144AEEA000C86F6A /* FRDynamicScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C1AE57144AEEA000C86F6A /* FRDynamicScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C1AE76144AEEA000C86F6A /* Build configuration list for PBXNativeTarget "FRDynamicScrollView" */;
+			buildPhases = (
+				55C1AE54144AEEA000C86F6A /* Sources */,
+				55C1AE55144AEEA000C86F6A /* Frameworks */,
+				55C1AE56144AEEA000C86F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRDynamicScrollView;
+			productName = FRDynamicScrollView;
+			productReference = 55C1AE58144AEEA000C86F6A /* FRDynamicScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C1AE4F144AEEA000C86F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Fructivity;
+			};
+			buildConfigurationList = 55C1AE52144AEEA000C86F6A /* Build configuration list for PBXProject "FRDynamicScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55C1AE4D144AEEA000C86F6A;
+			productRefGroup = 55C1AE59144AEEA000C86F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C1AE57144AEEA000C86F6A /* FRDynamicScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C1AE56144AEEA000C86F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C1AE67144AEEA000C86F6A /* InfoPlist.strings in Resources */,
+				55C1AE73144AEEA000C86F6A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C1AE54144AEEA000C86F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C1AE69144AEEA000C86F6A /* main.m in Sources */,
+				55C1AE6D144AEEA000C86F6A /* AppDelegate.m in Sources */,
+				55C1AE70144AEEA000C86F6A /* ViewController.m in Sources */,
+				55C1AE7B144AEEB800C86F6A /* FRDynamicScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55C1AE65144AEEA000C86F6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C1AE66144AEEA000C86F6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55C1AE71144AEEA000C86F6A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C1AE72144AEEA000C86F6A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C1AE74144AEEA000C86F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55C1AE75144AEEA000C86F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C1AE77144AEEA000C86F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FRDynamicScrollView/FRDynamicScrollView-Prefix.pch";
+				INFOPLIST_FILE = "FRDynamicScrollView/FRDynamicScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55C1AE78144AEEA000C86F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FRDynamicScrollView/FRDynamicScrollView-Prefix.pch";
+				INFOPLIST_FILE = "FRDynamicScrollView/FRDynamicScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C1AE52144AEEA000C86F6A /* Build configuration list for PBXProject "FRDynamicScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C1AE74144AEEA000C86F6A /* Debug */,
+				55C1AE75144AEEA000C86F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C1AE76144AEEA000C86F6A /* Build configuration list for PBXNativeTarget "FRDynamicScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C1AE77144AEEA000C86F6A /* Debug */,
+				55C1AE78144AEEA000C86F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C1AE4F144AEEA000C86F6A /* Project object */;
+}
